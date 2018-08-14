@@ -31,10 +31,10 @@ const XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 const btoa = require("btoa");
 const wml_credentials = new Map();
 
-wml_service_credentials_url = "https://us-south.ml.cloud.ibm.com"
-wml_service_credentials_username = "fd1bb242-1774-4c04-b6f3-16ac51076202"
-wml_service_credentials_password = "ac3a781a-20db-48a6-ac2d-e4721da4d4c3"
-scoring_end_point = "https://us-south.ml.cloud.ibm.com/v3/wml_instances/020680c1-6e8f-4514-81db-88e66d4739e2/deployments/e013582a-9f10-46f1-abcc-f6940ede3eef/online"
+wml_service_credentials_url = "xxxxxxxxxx"
+wml_service_credentials_username = "xxxxxxxxxx"
+wml_service_credentials_password = "xxxxxxxxxx"
+scoring_end_point = "xxxxxxxxxx"
 
 wml_credentials.set("url", wml_service_credentials_url);
 wml_credentials.set("username", wml_service_credentials_username);
