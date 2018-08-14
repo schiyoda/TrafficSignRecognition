@@ -1,0 +1,8 @@
+{
+  "watson_visual_recognition_apikey": "RVjKte8Dj1U-RnwvBJPbDtC5CgMepAxPww9TLwDduhi9",
+  "watson_visual_recognition_iam_apikey_description": "Auto generated apikey during resource-key operation for Instance - crn:v1:bluemix:public:watson-vision-combined:us-south:a/7f9dc5344476457f2c0f53244a37da3b:b419eb81-15af-4402-b3b1-a60bb3fb7976::",
+  "watson_visual_recognition_iam_apikey_name": "auto-generated-apikey-a6adfc91-5588-4a13-85e5-4fd872fba3b7",
+  "watson_visual_recognition_iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Reader",
+  "watson_visual_recognition_iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/7f9dc5344476457f2c0f53244a37da3b::serviceid:ServiceId-aef1c960-5b32-4abe-85b4-9f9e37e3c86f",
+  "watson_visual_recognition_url": "https://gateway.watsonplatform.net/visual-recognition/api"
+}

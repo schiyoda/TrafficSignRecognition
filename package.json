@@ -1,0 +1,69 @@
+{
+  "name": "starter-visual-recognition",
+  "version": "0.0.1",
+  "description": "A Visual Recognition sample nodejs application using deep learning algorithms to analyze images that can give you insights into your visual content.",
+  "private": true,
+  "engines": {
+    "node": "^6.0",
+    "npm": "^5.0"
+  },
+  "scripts": {
+    "start": "node server/server.js",
+    "debug": "chmod +x run-debug && ./run-debug",
+    "test": "nyc mocha",
+    "dev": "nodemon server/server.js",
+    "postinstall": "npm run build",
+    "build": "./node_modules/webpack/bin/webpack.js"
+  },
+  "nodemonConfig": {
+    "env": {
+      "NODE_HEAPDUMP_OPTIONS": "nosignal"
+    }
+  },
+  "dependencies": {
+    "appmetrics-dash": "^4.0.0",
+    "appmetrics-prometheus": "^2.0.0",
+    "appmetrics-zipkin": "^1.0.4",
+    "async": "^2.1.4",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babelify": "^7.3.0",
+    "body-parser": "^1.16.0",
+    "btoa": "^1.2.1",
+    "canvas": "^1.6.11",
+    "capitalize": "^1.0.0",
+    "css-loader": "^0.28.4",
+    "express": "^4.15.3",
+    "extend": "^3.0.1",
+    "ibm-cloud-env": "^0",
+    "jpath-query": "^0.1.1",
+    "log4js": "^1.1.1",
+    "multer": "^1.2.1",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "style-loader": "^0.18.2",
+    "sync-request": "^6.0.0",
+    "uglifyify": "^4.0.3",
+    "uuid": "^3.0.1",
+    "vcap_services": "^0.3.4",
+    "watson-developer-cloud": "^3.4.1",
+    "watson-react-components": "^0.6.10",
+    "webpack": "^3.5.4",
+    "whatwg-fetch": "^2.0.3",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1",
+    "chai": "^4.0.0",
+    "mocha": "^3.4.2",
+    "nyc": "^10.3.2"
+  },
+  "author": "IBM Corp.",
+  "license": "Apache-2.0"
+}
